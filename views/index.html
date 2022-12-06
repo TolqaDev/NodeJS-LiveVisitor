@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Live User</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <div class="clock">
+        <div class="clock__number-wrapper">
+            <span class="clock__section clock__section--next">
+                <span class="clock__number js-increment-after">1</span>
+            </span>
+            <span class="clock__section clock__section--upper">
+                <span class="clock__number js-increment-before">0</span>
+            </span>
+            <span class="clock__section clock__section--upper-back">
+                <span class="clock__number js-increment-after">1</span>
+            </span>
+            <span class="clock__section clock__section--lower">
+                <span class="clock__number js-increment-before">0</span>
+            </span>
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/index.js"></script>
+</body>
+</html>
